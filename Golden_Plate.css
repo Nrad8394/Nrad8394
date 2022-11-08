@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    /*background-image: url(background_img.jpg);*/
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+.header_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(224, 210, 210);
+}
+.header_top_left{
+    text-align: center;
+}
+
+.header_top_left h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+.header_top_left p{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10px;
+}
+.header_top_right span{
+    margin-left: 20px;
+}
+.header_top_right a{
+    text-decoration: none;
+    transition: all 0.5s ; 
+}
+.header_top_right a:hover{
+    color: red;
+    border-bottom: 1px red solid;
+}
+.header_bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.header_bottom_right a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 1s;
+    color: rgb(34, 32, 32);
+}
+.header_bottom_right a:hover{
+    color: red;
+    border-bottom: 1px red solid;
+}
+.welcome_ad{
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 10px;
+    color: rgb(22, 21, 21);
+    width: 40%;
+    float: left;
+    transition: all 1s;
+    text-align: center;
+    opacity: 0.5;
+}
+.welcome_ad:hover{
+    opacity: 1.0;
+}
+.welcome_ad button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    transition: all 1s;
+}
+.welcome_ad button:hover{
+    background-color: rgba(142, 20, 20, 0.406);
+}
+/* menu css */
+.menu{
+    background-color: rgb(181, 193, 209);
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    display: inline-block;
+}
+.grid_column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+.grid_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h3 .item_price{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+}
