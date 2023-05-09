@@ -2,7 +2,7 @@
 - 👀 I’m interested in learning all tips and tricks in coding
 - 🌱 I’m currently learning c and c++ coding languages
 - 💞️ I’m looking to collaborate on creating various programs using  c and c++ languages
-- 📫 How to reach me use my email benjaminkaranja8393@gmail.com
+
 
 
 <!---
